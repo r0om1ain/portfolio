@@ -5,8 +5,6 @@
     <meta charset="utf-8">
     <title>Romain Liénard</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -39,8 +37,10 @@
             <div class="navbar-nav m-auto py-0">
                 <a href="#home"             class="nav-item nav-link active">Home</a>
                 <a href="#about"            class="nav-item nav-link">About</a>
-                <a href="#qualification"    class="nav-item nav-link">Curriculum Vitae</a>
+                <a href="#cv"               class="nav-item nav-link">Curriculum Vitae</a>
                 <a href="#skill"            class="nav-item nav-link">Compétence</a>
+                <!-- <a href="#mission"          class="nav-item nav-link">Mes missions</a> -->
+                <!-- <a href="#veille"            class="nav-item nav-link">Veille technologique</a> -->
                 <!-- 
                     A ajouter plus tard avec les futurs projets
                      <a href="#portfolio" class="nav-item nav-link">Portfolio</a> 
@@ -55,7 +55,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/moi.png" alt="">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/photo_cv.jpg" alt="">
                 </div>
                 <div class="col-lg-7 text-center text-lg-left">
                     <h3 class="text-white font-weight-normal mb-3">Je suis</h3>
@@ -78,7 +78,7 @@
             </div>
             <div class="row align-items-center">
                 <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="img/moi.png" alt="">
+                    <img class="img-fluid rounded w-100" src="img/photo_cv.jpg" alt="Photo_personnelle">
                 </div>
                 <div class="col-lg-7">
                     <h3 class="mb-4">Apprenti développeur web</h3>
@@ -102,7 +102,7 @@
 
 
     <!-- CV && Formations && Expériences Start -->
-    <div class="container-fluid py-5" id="qualification">
+    <div class="container-fluid py-5" id="cv">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Expérience</h1>
@@ -148,8 +148,14 @@
                             <p>7 Av. Christian Doppler</p>
                         </div>
                     </div>
+                    <a href="file/romain-lienard-cv.pdf" download>
+                        <div class="text-center">
+                            <img src="img/telecharger-arrow.png" alt="Mon CV" width="50" height="50">
+                            <p>Télécharger mon CV</p>
+                        </div>
+                    </a>
                 </div>
-            </div>
+            </div>              
         </div>
     </div>
     <!-- CV && Formations && Expériences End -->
@@ -277,9 +283,44 @@
         </div>
     </div>
     <!-- Compétences End -->
+<!-- Projets Start -->
+    <div class="container-fluid pt-5 pb-3" id="AP">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Projets</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Mes Projets</h1>
+            </div>
+            <!-- Filtre pour mes futures projets AP
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">Tous</li>
+                            <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">AP 1</li>
+                            <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">AP 2</li>
+                            <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">AP 3</li>
+                            <li class="btn btn-sm btn-outline-primary m-1" data-filter=".fourth">AP 4</li> 
+                    </ul>
+                </div>
+            </div>
+            -->
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projet End -->
 
     <!-- Missions start -->
-    <div class="container text-center">
+    <div class="container text-center" id="mission">
         <div class="position-relative d-flex align-items-center justify-content-center">
             <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Missions</h1>
             <h1 class="position-absolute text-uppercase text-primary">Mes missions</h1>
@@ -300,7 +341,7 @@
                     configuration et installation d'un serveur web Nginx sur ma machine.
                 </li>
                 <li>
-                    <strong>Installation de l'API Symfony pour l'authentification avec les JWT Token :</strong> 
+                    <strong>Installation de l'API Symfony :</strong> 
                     configuration et installation de l'API Symfony et mise en place d'un système d'authentification 
                     utilisant des JWT (JSON Web Tokens).
                 </li>
@@ -320,41 +361,6 @@
         </div>
     </div>
     <!-- Missions end -->
-
-    <!-- Projets Start
-    <div class="container-fluid pt-5 pb-3" id="AP">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Projets</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Mes Projets</h1>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center mb-2">
-                    <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">Tous</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">AP 1</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">AP 2</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">AP 3</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".fourth">AP 4</li>
-
-                    </ul>
-                </div>
-            </div>
-            <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    Projet End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-primary text-white mt-5 py-3 px-sm-3 px-md-5">
