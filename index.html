@@ -38,9 +38,10 @@
                 <a href="#home"             class="nav-item nav-link active">Home</a>
                 <a href="#about"            class="nav-item nav-link">About</a>
                 <a href="#cv"               class="nav-item nav-link">Curriculum Vitae</a>
-                <a href="#skill"            class="nav-item nav-link">Compétence</a>
-                <!-- <a href="#mission"          class="nav-item nav-link">Mes missions</a> -->
-                <!-- <a href="#veille"            class="nav-item nav-link">Veille technologique</a> -->
+                <a href="#skill"            class="nav-item nav-link">Compétences</a>
+                <a href="#AP"               class="nav-item nav-link">Projets</a>
+                <a href="#mission"          class="nav-item nav-link">Mes missions</a>
+                <a href="#veille"           class="nav-item nav-link">Veille technologique</a>
                 <!-- 
                     A ajouter plus tard avec les futurs projets
                      <a href="#portfolio" class="nav-item nav-link">Portfolio</a> 
@@ -60,8 +61,7 @@
                 <div class="col-lg-7 text-center text-lg-left">
                     <h3 class="text-white font-weight-normal mb-3">Je suis</h3>
                     <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Romain Liénard</h1>
-                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                    <div class="typed-text d-none">Etudiant à l'IPSSI au Campus Marne la Vallée</div>
+                    <h1 style="color: #ffffff;">Etudiant à l'IPSSI au Campus Marne la Vallée</h1>
                 </div>
             </div>
         </div>
@@ -303,18 +303,55 @@
                 </div>
             </div>
             -->
-            <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="portfolio-item text-center">
+                        <div class="position-relative py-3 portfolio-item-container">
+                            <a href="http://localhost/code2cesar/">
+                                <img class="align-items-center justify-content-center img-custom-size" src="img/logo-cesar.png" alt="">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
                         </div>
+                        <p class="text-center mt-2 portfolio-item-container">Calculatrice SLAM</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="portfolio-item text-center">
+                        <div class="position-relative py-3 portfolio-item-container">
+                            <a href="https://biliteautech.ipssi-sio.fr/">
+                                <img class="align-items-center justify-content-center img-custom-size" src="img/biblio.jpg" alt="">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                        <p class="text-center mt-2 portfolio-item-container">Bibliothèque en ligne</p>
                     </div>
                 </div>
             </div>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="portfolio-item text-center">
+                        <div class="position-relative py-3 portfolio-item-container">
+                            <a href="">
+                                <img class="align-items-center justify-content-center img-custom-size" src="img/pollution.jpg" alt="">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                        <p class="text-center mt-2 portfolio-item-container">Respire Stat</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="portfolio-item text-center">
+                        <div class="position-relative py-3 portfolio-item-container">
+                            <a href="https://r0om1ain.github.io/Facturation/">
+                                <img class="align-items-center justify-content-center img-custom-size" src="img/facturation.jpg" alt="">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                        <p class="text-center mt-2 portfolio-item-container">Facturation</p>
+                    </div>
+                </div>
+            </div>                
         </div>
     </div>
     <!-- Projet End -->
@@ -361,6 +398,78 @@
         </div>
     </div>
     <!-- Missions end -->
+
+    <!-- Veille techno start -->
+    <div class="container text-center" id="veille">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Veille technologique</h1>
+            <h1 class="position-absolute text-uppercase text-primary">La sécurité des données web pour un développeur</h1>
+        </div>
+        <h1 style="text-align: center;">Veille technologique - Sécurité des données</h1>
+    
+        <div class="text-left">
+            <h2>Articles récents :</h2>
+            <ul>
+                <li>
+                    <u>Validation des entrées utilisateur</u>
+                    <p>
+                        Toutes les entrées fournies par les utilisateurs doivent être validées côté serveur pour éviter les attaques 
+                        d'injection de code, telles que les attaques par injection SQL ou les attaques par script intersite (XSS).
+                    </p>
+                </li>
+                <li>
+                    <u>Protection contre les attaques par force brute</u>
+                    <p>
+                        Mettez en œuvre des mécanismes de protection tels que des limites de tentative de connexion, des mots de passe forts, 
+                        des mécanismes de verrouillage de compte temporaires, etc.
+                    </p>
+                </li>
+                <li>
+                    <u>Gestion des privilèges</u>
+                    <p>
+                        Appliquez le principe du moindre privilège en accordant aux utilisateurs uniquement les privilèges nécessaires 
+                        pour effectuer leurs tâches. Limitez l'accès aux ressources sensibles et assurez-vous que les autorisations 
+                        sont correctement configurées.
+                    </p>
+                </li>
+                <li>
+                    <u>Protection contre les attaques par contrefaçon de requête intersites (CSRF)</u>
+                    <p>
+                        Utilisez des jetons CSRF pour vérifier l'authenticité des demandes soumises par les utilisateurs.
+                    </p>
+                </li>
+            </ul>
+    
+            <div class="my-5">
+                <h2><u>Classement de l'OWASP sur les vulnérabilités comparant 2017 et 2021</u></h2>
+                <div class="text-center">
+                    <img class="img-fluid" style="max-width: 300px;" src="img/owasp_logo.jpg" alt="OWASP">
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid" style="max-width: 100%;" src="img/owasp_tab.png" alt="OWASP_TOP10">
+                </div>
+            </div>
+        </div>
+    
+        <div class="text-left">
+            <h2>Outils et frameworks recommandés :</h2>
+            <ul>
+                <li>
+                    <a href="https://www.zaproxy.org/">OWASP ZAP</a>
+                    <p>OWASP ZAP (Zed Attack Proxy) est un outil de sécurité open source qui permet de détecter et de corriger les vulnérabilités dans les applications web.</p>
+                </li>
+                <li>
+                    <a href="https://www.veracode.com/products/software-composition-analysis">Veracode</a>
+                    <p>Veracode est une plateforme d'analyse de composition logicielle (SCA) qui aide à identifier et à gérer les vulnérabilités dans les dépendances et les composants des applications web.</p>
+                </li>
+                <li>
+                    <a href="https://www.ansible.com/">Ansible</a>
+                    <p>Ansible est un framework open source d'automatisation qui peut être utilisé pour déployer et gérer de manière sécurisée des infrastructures et des applications web.</p>
+                </li>
+            </ul>
+        </div>
+    </div>    
+    <!-- Veille techno end -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-primary text-white mt-5 py-3 px-sm-3 px-md-5">
