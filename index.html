@@ -35,13 +35,14 @@
         </button>
         <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
             <div class="navbar-nav m-auto py-0">
-                <a href="#home"             class="nav-item nav-link active">Home</a>
-                <a href="#about"            class="nav-item nav-link">About</a>
-                <a href="#cv"               class="nav-item nav-link">Curriculum Vitae</a>
-                <a href="#skill"            class="nav-item nav-link">Compétences</a>
-                <a href="#AP"               class="nav-item nav-link">Projets</a>
-                <a href="#mission"          class="nav-item nav-link">Mes missions</a>
-                <a href="#veille"           class="nav-item nav-link">Veille technologique</a>
+                <a href="#home"                 class="nav-item nav-link active">Home</a>
+                <a href="#about"                class="nav-item nav-link">About</a>
+                <a href="#cv"                   class="nav-item nav-link">Curriculum Vitae</a>
+                <a href="#skill"                class="nav-item nav-link">Compétences</a>
+                <a href="#AP"                   class="nav-item nav-link">Projets</a>
+                <a href="#TabSyntheseProjet"    class="nav-item nav-link">Tableau de synthèse et projets</a>
+                <a href="#mission"              class="nav-item nav-link">Mes missions</a>
+                <a href="#veille"               class="nav-item nav-link">Veille technologique</a>
                 <!-- 
                     A ajouter plus tard avec les futurs projets
                      <a href="#portfolio" class="nav-item nav-link">Portfolio</a> 
@@ -159,7 +160,6 @@
         </div>
     </div>
     <!-- CV && Formations && Expériences End -->
-
 
     <!-- Compétences Start -->
     <div class="container-fluid py-5" id="skill">
@@ -283,7 +283,8 @@
         </div>
     </div>
     <!-- Compétences End -->
-<!-- Projets Start -->
+
+    <!-- Projets Start -->
     <div class="container-fluid pt-5 pb-3" id="AP">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
@@ -355,6 +356,69 @@
         </div>
     </div>
     <!-- Projet End -->
+
+    <!-- Projet Start -->
+    <div class="container-fluid py-5" id="TabSyntheseProjet">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Projets</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Projets</h1>
+            </div>
+            <p>L'AP1 consiste à s’appuyer sur la prise de connaissance de l’environnement technique destiné à permettre aux étudiants 
+                d’expérimenter les situations définies dans le référentiel d’activités professionnelles et de mener à bien les premiers 
+                projets personnalisés encadrés.</p>
+            <p>À partir de différentes situations professionnelles définies par l’équipe pédagogique, 
+                il permet d’aborder plus particulièrement les processus « Gestion du patrimoine informatique » et 
+                « Fourniture de services » en vue d’appréhender une configuration sur les plans technique et financier, 
+                de fournir un service aux utilisateurs par la mise à disposition de cette configuration et de vérifier la 
+                conformité du service fourni à un cahier des charges.</p>
+            <p>Pour répondre aux exigences de cet AP, nous avons créé une entreprise fictive nommée Studio GD avec tous 
+                ses documents nécessaires. </p>
+
+            <h3>Présentation de l'entreprise :</h3>
+            <a href="file/Helios.pdf" download>
+                <div class="text-center">
+                    <img src="img/telecharger-arrow.png" alt="P" width="50" height="50">
+                    <p>Télécharger</p>
+                </div>
+            </a>
+            <div>
+                <iframe src="file/Helios.pdf" frameborder="0" width="100%" height="600px"></iframe>
+            </div>
+
+            <h3>Présentation des documents</h3>
+            <a href="file/Devis HELIO.pdf" download>
+                <button type="button" class="btn btn-light">Exemple Devis</button>
+            </a>
+            <a href="file/Facture HELIO.pdf" download>
+                <button type="button" class="btn btn-light">Exemple Facture</button>
+            </a>
+            <a href="file/Extrait KBIS HELIO.pdf" download>
+                <button type="button" class="btn btn-light">Exemple Kbis</button>
+            </a>
+        </div>
+    </div>
+    <!-- Projet End -->
+
+    <!-- Tableau de synthèse Start -->
+    <div class="container-fluid py-5" id="TabSyntheseProjet">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center text-align">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Document</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Tableau de synthèse</h1>
+            </div>
+            <a href="file/Tableau de synthèse (aide).pdf" download>
+                <div class="text-center">
+                    <img src="img/telecharger-arrow.png" alt="Tableau de synthèse" width="50" height="50">
+                    <p>Télécharger</p>
+                </div>
+            </a>
+            <div>
+                <iframe src="file/Tableau de synthèse (aide).pdf" frameborder="0" width="100%" height="600px"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Tableau de synthèse End -->
 
     <!-- Missions start -->
     <div class="container text-center" id="mission">
@@ -498,12 +562,7 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
