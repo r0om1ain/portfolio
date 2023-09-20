@@ -123,10 +123,10 @@ h6,
     outline: none;
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link.active {
-    color: $primary;
-}
+// .navbar-light .navbar-nav .nav-link:hover,
+// .navbar-light .navbar-nav .nav-link.active {
+//     color: $primary;
+// }
 
 @media (max-width: 991.98px) {
     .navbar-light .navbar-nav .nav-link {
@@ -304,4 +304,8 @@ h6,
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.ExempleDL {
+    color: #0BCEAF;  
 }
