@@ -85,7 +85,7 @@
               Romain Liénard
             </h1>
             <h1 style="color: #ffffff">
-              Etudiant à l'IPSSI au Campus Marne la Vallée
+              Etudiant au Campus IPSSI Marne la Vallée
             </h1>
           </div>
         </div>
@@ -942,6 +942,90 @@
         </ul>
       </div>
     </div>
+    <div class="container text-center" id="veille">
+      <div
+        class="position-relative d-flex align-items-center justify-content-center mb-4 mt-4"
+      >
+        <h1 class="position-absolute text-uppercase text-primary">React.js</h1>
+      </div>
+      <h1 style="text-align: center">Veille technologique - React.js</h1>
+      <div class="text-left">
+        <h2>Articles récents :</h2>
+        <ul>
+          <li class="mb-3">
+            <p>Note sur les mises à jour</p>
+            <p>
+              <a href="https://react.dev/blog">React blog</a>
+            </p>
+            <div class="row justify-content-left">
+              <div class="col-8">
+                <img
+                  src="img/blog_reactjs.png"
+                  class="img-fluid"
+                  alt="ReactJS Blog"
+                />
+              </div>
+            </div>
+          </li>
+          <li>
+            <p>L'onglet communauté de react</p>
+            <p>
+              <a href="https://react.dev/blog">Communauté React</a>
+            </p>
+            <div class="row justify-content-left">
+              <div class="col-8">
+                <img
+                  src="img/commu_reactjs.png"
+                  class="img-fluid"
+                  alt="ReactJS Blog"
+                />
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="text-left">
+        <h2>Principaux concepts :</h2>
+        <p>
+          <u>Composants :</u> Les composants sont les blocs de construction
+          fondamentaux de React. Ils permettent de diviser l'interface
+          utilisateur en morceaux indépendants et réutilisables. Un composant
+          peut être une simple boîte de texte, un bouton, ou même une interface
+          utilisateur complexe comme une barre de navigation. Les composants
+          peuvent être de deux types : les composants de classe (anciennement
+          appelés composants "stateful") et les composants fonctionnels
+          (anciennement appelés composants "stateless"). Avec l'introduction des
+          Hooks, les composants fonctionnels peuvent maintenant gérer l'état et
+          d'autres fonctionnalités qui étaient auparavant réservées aux
+          composants de classe.
+        </p>
+        <p>
+          <u>JSX (JavaScript XML) :</u> JSX est une extension de syntaxe
+          JavaScript qui permet d'écrire du code HTML de manière déclarative
+          dans des fichiers JavaScript. Il permet aux développeurs d'écrire du
+          code qui ressemble étroitement à du HTML tout en profitant de la
+          puissance de JavaScript pour créer des composants dynamiques et
+          réactifs. Par exemple, au lieu d'écrire React.createElement('div', {
+          className: 'container' }, 'Hello, World!'), vous pouvez simplement
+          écrire <\div className="container"Hello, World!<\div>.
+        </p>
+        <p>
+          <u>Virtual DOM (Document Object Model) :</u> Le Virtual DOM est une
+          abstraction de la structure de l'interface utilisateur utilisée par
+          React pour améliorer les performances des applications web. Lorsqu'un
+          composant change d'état, React crée une nouvelle représentation de
+          l'interface utilisateur dans le Virtual DOM. React compare ensuite
+          cette nouvelle représentation avec l'ancienne, détermine les
+          différences et met à jour uniquement les parties de l'interface
+          utilisateur qui ont changé, ce qui permet d'éviter les mises à jour
+          coûteuses du DOM réel. Cela permet d'améliorer considérablement les
+          performances des applications React, en particulier celles qui
+          contiennent de grandes quantités de données ou d'éléments d'interface
+          utilisateur.
+        </p>
+      </div>
+    </div>
+
     <!-- Veille techno end -->
 
     <!-- Footer Start -->
@@ -953,13 +1037,17 @@
           <a
             class="btn btn-light btn-social mr-2"
             href="https://github.com/r0om1ain"
-            ><i class="fab fa-github"></i
-          ></a>
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
           <a
             class="btn btn-light btn-social mr-2"
             href="https://www.linkedin.com/in/romain-liénard-38a98a267/"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
+            target="_blank"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
         </div>
         <p class="m-0">
           &copy; <a class="text-white font-weight-bold">Liénard Romain</a>. Tout
@@ -969,16 +1057,12 @@
     </div>
     <!-- Footer End -->
 
-    <!-- Scroll to Bottom -->
-    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-outline-dark px-0 back-to-top"
       ><i class="fa fa-angle-double-up"></i
     ></a>
 
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/typed/typed.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
